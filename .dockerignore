@@ -15,4 +15,4 @@ tmp/
 !*.py
 !*.txt
 !app/
-!input/
+#!input/
