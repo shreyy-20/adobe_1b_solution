@@ -141,14 +141,14 @@ The consolidated output file is located at `output/result.json` and follows this
 ````
 ## IMPORTANT
 
-## Input PDFs and Output are excluded due to GitHub size limits. Please use input/ and models/ folders locally as needed.
-##  models/     # Contains downloaded SentenceTransformer model files
+## All 10 Input PDFs and Output results are excluded due to GitHub size limits. Please use input/ and models/ folders locally as needed.
+##  Models     # Contains downloaded SentenceTransformer model files
 To download the model locally:
 
-bash:-
+```bash
 from sentence_transformers import SentenceTransformer
 SentenceTransformer("all-MiniLM-L6-v2", cache_folder="./models")
-
+```
 ##  output/     # Will be auto-generated after running
 
 
