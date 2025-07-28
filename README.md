@@ -149,7 +149,7 @@ To download the model locally:
 from sentence_transformers import SentenceTransformer
 SentenceTransformer("all-MiniLM-L6-v2", cache_folder="./models")
 ```
-##  output/     # Will be auto-generated after running
+## output      # Will be auto-generated after running
 
 
 
