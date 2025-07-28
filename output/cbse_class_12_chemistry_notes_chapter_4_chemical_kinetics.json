@@ -1,0 +1,209 @@
+[
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "For example, we have the following data:  \n1\n2\n3\n0\n1\n2\n3\nt\nTime: 0     t    t     t  .......",
+      "Logarithmic data method:  \nFor any order, be it fractional or integral, if we plot log (rate) vs log (concentration) \ngraph it will always be a straight line for the reactions of the type:  \n\uf05b\uf05d\n\uf05b\uf05d\nn\nA \nproducts\nRate, r = k A\nlog r = log k + n log A\n\uf0ae\n \nWe can take various data points and convert them to log values and plot them.",
+      "For this we will have to try and fit the data into the \nequation at various intervals and calculate the value of rate constants. If the values \ncome out to be the same in all intervals then the data fits into the equation taken and \nwe will know the order.",
+      "\uf05b\uf05d\n\uf05b\uf05d\n-d R\nRate = \ndt\nR\nk\n\uf03d\n \n \n\uf05b\uf05d\n\uf05b\uf05d\n\uf05b\uf05d\n\uf05b\uf05d\nR\nP\n-d R\nRate = \nR\ndt\n-d R\ndt\nR\nk\nk\n\uf0ae\n\uf03d\n\uf03d\n \nIntegrating this equation, we get  \n\uf05b\uf05d\n\uf028\uf029\nln R  = \u2013kt + I ........",
+      "The peak of \nthe curve represents the kinetic energy possessed by the maximum fraction of \nmolecules and is called most probable kinetic energy."
+    ],
+    "response": "For example, we have the following data:  \n1\n2\n3\n0\n1\n2\n3\nt\nTime: 0     t    t     t  .......",
+    "confidence_scores": [
+      0.281,
+      0.223,
+      0.162,
+      0.135,
+      0.132
+    ],
+    "top_score": 0.281,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Analyze revenue trends across all companies",
+    "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+    "timestamp": "2025-07-28 19:41:15"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "\uf05b\uf05d\n\uf05b\uf05d\n-d R\nRate = \ndt\nR\nk\n\uf03d\n \n \n\uf05b\uf05d\n\uf05b\uf05d\n\uf05b\uf05d\n\uf05b\uf05d\nR\nP\n-d R\nRate = \nR\ndt\n-d R\ndt\nR\nk\nk\n\uf0ae\n\uf03d\n\uf03d\n \nIntegrating this equation, we get  \n\uf05b\uf05d\n\uf028\uf029\nln R  = \u2013kt + I ........",
+      "\uf05b\n\uf05d\nR\nP\nR\nRate = -\nR\nd\nk\ndt\n\uf0ae\n\uf03d\n\uf0b0 \n \nConsider the reaction,  \n\uf05b\uf05d\n\uf05b\uf05d\n\uf05b\uf05d\n\uf05b\uf05d\n\u00b0\nR\nP\nR\nRate\n = \nR\n \nR\nRate\n = \n1\n \nR  \n\u2013 \nd\nk\nd\nk\nd\nkdt\ndt\ndt\n\uf0ae\n\uf03d\uf02d\n\uf03d\uf02d\n\uf0b4\n\uf03d\n \n\n \n \nClass XII Chemistry                                www.vedantu.com                                              6 \nIntegrating both sides  \n\uf05b\uf05d\nR\n\u2013 \nI\nkt\n\uf03d\n\uf02b \nwhere, I is the constant of integration.",
+      "R \nis gas constant and Ea is activation energy measured in joules/mole. The factor \n/\nE\nRT\na\ne\uf02d\n corresponds to the fraction of molecules that have kinetic energy greater \nthan Ea.",
+      "Class XII Chemistry                                www.vedantu.com                                              21 \n \nWith increase in temperature:  \n(i) maximum of the curve moves to the higher energy value i.e., most probable \nkinetic energy increases  \n(ii) the curve spreads to the right i.e., there is a greater proportion of molecules with \nmuch higher energies.",
+      "As  \n\uf05b\uf05d\n\uf05b\uf05d\ninst\n\u0394t\n0 \nor \n-d R\nd P  \nr\n=\nt\n=\n \n \nd\ndt\n\uf0ae\n \nIMPORTANT: Rate of a reaction is always positive. Since, [R] is a negative \nquantity (as concentration of reactants is decreasing), it is multiplied with \u20131 to \nmake the rate of the reaction a positive quantity."
+    ],
+    "response": "\uf05b\uf05d\n\uf05b\uf05d\n-d R\nRate = \ndt\nR\nk\n\uf03d\n \n \n\uf05b\uf05d\n\uf05b\uf05d\n\uf05b\uf05d\n\uf05b\uf05d\nR\nP\n-d R\nRate = \nR\ndt\n-d R\ndt\nR\nk\nk\n\uf0ae\n\uf03d\n\uf03d\n \nIntegrating this equation, we get  \n\uf05b\uf05d\n\uf028\uf029\nln R  = \u2013kt + I ........",
+    "confidence_scores": [
+      0.214,
+      0.207,
+      0.179,
+      0.129,
+      0.125
+    ],
+    "top_score": 0.214,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Compare R&D investments for the past year",
+    "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+    "timestamp": "2025-07-28 19:41:15"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "For example the following reactions :  \n For a first order gas phase reaction of the type:  \n\uf028\uf029\n\uf028\uf029\n\uf028\uf029\nA g\n B g  + C g\n\uf0ae\n \nLet \nip  be the initial pressure of A and pt the total pressure at time \u2018t\u2019.",
+      "Class XII Chemistry                                www.vedantu.com                                              15 \nii.",
+      "Initial Rate Data Method:  \nWe take different set of initial concentration and measure the initial rate. Then by \nkeeping the concentration of one of the reactants constant and varying the other one \nwe can study the effect on the rate and hence find out the order.",
+      "Order is the sum of the powers of the concentration of the reactants in the rate law \nexpression. 2. It can be zero and even a fraction. 3. It is applicable to elementary as well as complex reactions. 4. It can be determined experimentally only and cannot be calculated. 5.",
+      "By integrated rate Equations:  \n\n \n \nClass XII Chemistry                                www.vedantu.com                                              16 \nIf we have simple data of concentration and time we can use the integrated rate \nequations to find out the order."
+    ],
+    "response": "For example the following reactions :  \n For a first order gas phase reaction of the type:  \n\uf028\uf029\n\uf028\uf029\n\uf028\uf029\nA g\n B g  + C g\n\uf0ae\n \nLet \nip  be the initial pressure of A and pt the total pressure at time \u2018t\u2019.",
+    "confidence_scores": [
+      0.141,
+      0.131,
+      0.119,
+      0.116,
+      0.105
+    ],
+    "top_score": 0.141,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "What are the market positioning strategies mentioned?",
+    "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+    "timestamp": "2025-07-28 19:41:15"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "For example the following reactions :  \n For a first order gas phase reaction of the type:  \n\uf028\uf029\n\uf028\uf029\n\uf028\uf029\nA g\n B g  + C g\n\uf0ae\n \nLet \nip  be the initial pressure of A and pt the total pressure at time \u2018t\u2019.",
+      "A complex reaction can be represented as a series of \nelementary steps.",
+      "Class XII Chemistry                                www.vedantu.com                                              15 \nii.",
+      "Logarithmic data method:  \nFor any order, be it fractional or integral, if we plot log (rate) vs log (concentration) \ngraph it will always be a straight line for the reactions of the type:  \n\uf05b\uf05d\n\uf05b\uf05d\nn\nA \nproducts\nRate, r = k A\nlog r = log k + n log A\n\uf0ae\n \nWe can take various data points and convert them to log values and plot them.",
+      "Order is the sum of the powers of the concentration of the reactants in the rate law \nexpression. 2. It can be zero and even a fraction. 3. It is applicable to elementary as well as complex reactions. 4. It can be determined experimentally only and cannot be calculated. 5."
+    ],
+    "response": "For example the following reactions :  \n For a first order gas phase reaction of the type:  \n\uf028\uf029\n\uf028\uf029\n\uf028\uf029\nA g\n B g  + C g\n\uf0ae\n \nLet \nip  be the initial pressure of A and pt the total pressure at time \u2018t\u2019.",
+    "confidence_scores": [
+      0.211,
+      0.205,
+      0.203,
+      0.178,
+      0.158
+    ],
+    "top_score": 0.211,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Summarize methodologies used in the papers",
+    "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+    "timestamp": "2025-07-28 19:41:15"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "Class XII Chemistry                                www.vedantu.com                                              15 \nii.",
+      "Class XII Chemistry                                www.vedantu.com                                              5 \n2.3 Units of rate constant  \n\uf05b\uf05d\uf05b\uf05d\nRate\nA\nB\nx\ny\nk\n\uf03d\n \n\uf05b\uf05d\uf05b\uf05d\n\uf028\n\uf029\nRate\nconcentration\n1\ntime\nconcentration\nA\nB\nx\ny\nn\nk \uf03d\n\uf03d\n\uf0b4\n \n \n3.",
+      "Logarithmic data method:  \nFor any order, be it fractional or integral, if we plot log (rate) vs log (concentration) \ngraph it will always be a straight line for the reactions of the type:  \n\uf05b\uf05d\n\uf05b\uf05d\nn\nA \nproducts\nRate, r = k A\nlog r = log k + n log A\n\uf0ae\n \nWe can take various data points and convert them to log values and plot them.",
+      "For example, we have the following data:  \n1\n2\n3\n0\n1\n2\n3\nt\nTime: 0     t    t     t  .......",
+      "\uf05b\n\uf05d\n\uf05b\n\uf05d\n\uf05b\n\uf05d\nRate = k CH3 COOC2H5  \nwhere kn = k H2O  \nCane Sugar Glucose Fructose H C H O H O C H O C H O n n nnnn n \nRate = k C12H22O11\n \n3.5 Practical Analysis of First Order Reactions  \nCase - 1:  \nIn gaseous phase reactions we prefer to measure the pressure of the gases or volume."
+    ],
+    "response": "Class XII Chemistry                                www.vedantu.com                                              15 \nii.",
+    "confidence_scores": [
+      0.257,
+      0.221,
+      0.201,
+      0.195,
+      0.185
+    ],
+    "top_score": 0.257,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "List the key datasets used in these studies",
+    "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+    "timestamp": "2025-07-28 19:41:15"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "Classification of reactions  \nOn the basis of rates:  \nVery fast reactions e.g. precipitation of AgCl  \nVery slow reactions e.g. rusting of iron  \nReactions taking place at moderate speeds e.g. hydrolysis of starch  \n  \n 1.",
+      "\uf05b\n\uf05d\n\uf05b\n\uf05d\n\uf05b\n\uf05d\nRate = k CH3 COOC2H5  \nwhere kn = k H2O  \nCane Sugar Glucose Fructose H C H O H O C H O C H O n n nnnn n \nRate = k C12H22O11\n \n3.5 Practical Analysis of First Order Reactions  \nCase - 1:  \nIn gaseous phase reactions we prefer to measure the pressure of the gases or volume.",
+      "Rate of \nreaction depends on the number of effective collisions which in turn depends on:  \n(i) Energy factor: colliding molecules must have energy more than threshold \nenergy. (ii) Steric or probability factor (P): colliding molecules must have proper \norientations at the time of collision.",
+      "\u20131\n\u20131\n\u20131\nmol L s \n; atm s\n (for gaseous reactions)  \n1.4 Overall rate of a reaction  \nWhen there are several reactants and products the individual rates of the various \ncomponents may differ as they would depend on the stoichiometric coefficients.",
+      "It is applicable only for elementary reactions. For complex reaction molecularity \nhas no meaning. Class XII Chemistry                                www.vedantu.com                                              19 \n4. It can be calculated by simply adding the molecules of the slowest step. 5."
+    ],
+    "response": "Classification of reactions  \nOn the basis of rates:  \nVery fast reactions e.g. precipitation of AgCl  \nVery slow reactions e.g. rusting of iron  \nReactions taking place at moderate speeds e.g. hydrolysis of starch  \n  \n 1.",
+    "confidence_scores": [
+      0.223,
+      0.194,
+      0.157,
+      0.154,
+      0.135
+    ],
+    "top_score": 0.223,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "What performance benchmarks were reported?",
+    "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+    "timestamp": "2025-07-28 19:41:15"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "Class XII Chemistry                                www.vedantu.com                                              1 \nRevision Notes \nClass \u2013 12 Chemistry \nChapter 4 \u2013 Chemical Kinetics \n \nINTRODUCTION  \nChemical Kinetics  \n(Kinesis: Movement)  \nThe branch of chemistry which deals with the study of the rates of chemical \nreactions, the factors affecting the rates of the reactions and the mechanism by \nwhich the reactions proceed is called Chemical Kinetics.",
+      "Classification of reactions  \nOn the basis of rates:  \nVery fast reactions e.g. precipitation of AgCl  \nVery slow reactions e.g. rusting of iron  \nReactions taking place at moderate speeds e.g. hydrolysis of starch  \n  \n 1.",
+      "IMPORTANT  \nRate law for any reaction cannot be predicted by merely looking at the balanced \nchemical equation, i.e., theoretically but must be determined experimentally.",
+      "Rate of \nreaction depends on the number of effective collisions which in turn depends on:  \n(i) Energy factor: colliding molecules must have energy more than threshold \nenergy. (ii) Steric or probability factor (P): colliding molecules must have proper \norientations at the time of collision.",
+      "Generally, molecularity of the slowest step is same as the order of the overall \nreaction. 5. TEMPERATURE DEPENDENCE  \n5.1 Activation Energy  \nAccording to collision theory, a reaction takes place because the reactant molecules \ncollide with each other."
+    ],
+    "response": "Class XII Chemistry                                www.vedantu.com                                              1 \nRevision Notes \nClass \u2013 12 Chemistry \nChapter 4 \u2013 Chemical Kinetics \n \nINTRODUCTION  \nChemical Kinetics  \n(Kinesis: Movement)  \nThe branch of chemistry which deals with the study of the rates of chemical \nreactions, the factors affecting the rates of the reactions and the mechanism by \nwhich the reactions proceed is called Chemical Kinetics.",
+    "confidence_scores": [
+      0.683,
+      0.603,
+      0.545,
+      0.528,
+      0.528
+    ],
+    "top_score": 0.683,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "What are the key concepts in reaction kinetics?",
+    "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+    "timestamp": "2025-07-28 19:41:15"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "Rate law is the expression in which reaction rate is given in terms of molar \nconcentration of reactants with each term raised to some power, which may or may \nnot be same as the stoichiometric coefficient of the reacting species in a balanced \nchemical equation.",
+      "Hence, \nthe sum of powers of the concentration of the reactants in the rate law expression \nis called the order of that chemical reaction. Order of a reaction can be 0, 1, 2, 3 and even a fraction.",
+      "Order is the sum of the powers of the concentration of the reactants in the rate law \nexpression. 2. It can be zero and even a fraction. 3. It is applicable to elementary as well as complex reactions. 4. It can be determined experimentally only and cannot be calculated. 5.",
+      "\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\nOverall Rate = \u2013 A / t = \u20131/2  B/ t = +1/3  C/ t \n= +1/4  D / t\n \n \n2. DEPENDENCE OF RATE ON CONCENTRATION  \nFactors Influencing Rate of a Reaction  \n concentration of reactants (pressure in case of gases),  \n temperature and  \n catalyst.",
+      "INTEGRATED RATE EQUATIONS  \n3.1 Zero order reaction  \nThe rate of the reaction is proportional to zero power of the concentration of \nreactants."
+    ],
+    "response": "Rate law is the expression in which reaction rate is given in terms of molar \nconcentration of reactants with each term raised to some power, which may or may \nnot be same as the stoichiometric coefficient of the reacting species in a balanced \nchemical equation.",
+    "confidence_scores": [
+      0.743,
+      0.726,
+      0.715,
+      0.685,
+      0.672
+    ],
+    "top_score": 0.743,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Explain the rate laws and order of reaction",
+    "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+    "timestamp": "2025-07-28 19:41:15"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "Rate of \nreaction depends on the number of effective collisions which in turn depends on:  \n(i) Energy factor: colliding molecules must have energy more than threshold \nenergy. (ii) Steric or probability factor (P): colliding molecules must have proper \norientations at the time of collision.",
+      "Classification of reactions  \nOn the basis of rates:  \nVery fast reactions e.g. precipitation of AgCl  \nVery slow reactions e.g. rusting of iron  \nReactions taking place at moderate speeds e.g. hydrolysis of starch  \n  \n 1.",
+      "\uf028\n\uf029\n\uf028\n\uf029\n\uf028\n\uf029\nOverall Rate = \u2013 A / t = \u20131/2  B/ t = +1/3  C/ t \n= +1/4  D / t\n \n \n2. DEPENDENCE OF RATE ON CONCENTRATION  \nFactors Influencing Rate of a Reaction  \n concentration of reactants (pressure in case of gases),  \n temperature and  \n catalyst.",
+      "1.3 Units of rate of a reaction  \nUnits of rate are concentration time\u20131  \ne.g.",
+      "RATE OF A CHEMICAL REACTION  \nThe rate of a reaction can be defined as the change in concentration of a reactant \nor a product in unit time. 1.1 Average rate  \nThe rate of reaction measured over a definite time interval is called average rate of \na reaction."
+    ],
+    "response": "Rate of \nreaction depends on the number of effective collisions which in turn depends on:  \n(i) Energy factor: colliding molecules must have energy more than threshold \nenergy. (ii) Steric or probability factor (P): colliding molecules must have proper \norientations at the time of collision.",
+    "confidence_scores": [
+      0.648,
+      0.589,
+      0.587,
+      0.562,
+      0.562
+    ],
+    "top_score": 0.648,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Summarize factors affecting reaction rates",
+    "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+    "timestamp": "2025-07-28 19:41:15"
+  }
+]

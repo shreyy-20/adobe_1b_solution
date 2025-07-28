@@ -1,0 +1,209 @@
+[
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+      "In this section, we categorize and discuss these approaches based on their specific prediction tasks\nand input data types, highlighting their novel contributions and offering insights into how they advance the\nfield.",
+      "In other cases (e.g., data from cell-based\nassays), the relationships can be quantified based on one or multiple measures of individual drugs and/or\ndrug pairs (e.g., half maximal inhibitory concentration or IC50), which can be viewed as regression tasks.",
+      "Keywords: Drug Discovery, Graph Neural Networks, Machine Learning\n1\nIntroduction\nIt is well known that traditional drug discovery is costly, time-consuming, and with high failure rates [1].",
+      "However, obtaining class labels or quantitative measurements often requires costly labo-\nratory experiments or human annotations. As a result, many datasets contain large numbers of unlabeled or\nimbalanced samples."
+    ],
+    "response": "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+    "confidence_scores": [
+      0.262,
+      0.232,
+      0.21,
+      0.177,
+      0.148
+    ],
+    "top_score": 0.262,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Analyze revenue trends across all companies",
+    "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+    "timestamp": "2025-07-28 19:41:27"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "In this section, we categorize and discuss these approaches based on their specific prediction tasks\nand input data types, highlighting their novel contributions and offering insights into how they advance the\nfield.",
+      "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+      "However, as the number of possible drug combinations grows with the increasing number\nof available drugs, the potential for undetected and unexpected drug-drug interaction (DDIs) also rises [33].",
+      "12\n\n5.1\nTypes of Input Data\nSimilar to drug\u2013target interaction prediction discussed in the previous section, many early approaches to\nDDI prediction primarily utilized drug\u2013drug interaction graphs, where nodes represent drugs and edges en-\ncode their interactions.",
+      "However, in datasets with large environmental\nvariations, MoleOOD\u2019s advantage over simpler methods like ERM [72] may diminish. Some recent methods have also integrated both one-dimensional sequential encodings (e.g., SMILES\nstrings) and 2D graphs to jointly leverage information from both views."
+    ],
+    "response": "In this section, we categorize and discuss these approaches based on their specific prediction tasks\nand input data types, highlighting their novel contributions and offering insights into how they advance the\nfield.",
+    "confidence_scores": [
+      0.239,
+      0.222,
+      0.181,
+      0.173,
+      0.171
+    ],
+    "top_score": 0.239,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Compare R&D investments for the past year",
+    "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+    "timestamp": "2025-07-28 19:41:27"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "In this section, we categorize and discuss these approaches based on their specific prediction tasks\nand input data types, highlighting their novel contributions and offering insights into how they advance the\nfield.",
+      "To address challenges such as label sparsity, many\nmethods also incorporate advanced learning strategies, including self-supervised (pre-training) and few-shot\nlearning.",
+      "While models like MoLeR and GEAM focused primarily on the generation process, MiCam [9] proposed\na novel strategy for building a chemically \u201creasonable\u201d motif vocabulary.",
+      "In the literature, various terms are used to describe\nthese interactions, each emphasizing different aspects. These include drug-target interaction, protein-ligand\ninteraction, drug-target binding affinity, protein-ligand binding affinity, molecular docking.",
+      "GraphINVENT is a representative among a broader\nclass of models [57, 58, 59, 60] that all adopt such an iterative sampling strategy that build new graphs by\nrepeatedly sampling components or actions from learned distributions."
+    ],
+    "response": "In this section, we categorize and discuss these approaches based on their specific prediction tasks\nand input data types, highlighting their novel contributions and offering insights into how they advance the\nfield.",
+    "confidence_scores": [
+      0.302,
+      0.217,
+      0.168,
+      0.168,
+      0.168
+    ],
+    "top_score": 0.302,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "What are the market positioning strategies mentioned?",
+    "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+    "timestamp": "2025-07-28 19:41:27"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "Earlier approaches were mostly based on traditional machine learning algorithms\nand/or matrix decomposition framework [38]. Some methods [40, 41, 42] can even take into considera-\ntions of patients\u2019 medical history and recommend drugs that are safe to use for specific patients.",
+      "5.2\nProblem Formulations\nThe choice of input data and their representations not only inspires model design but also significantly in-\nfluences problem formulations. Early models primarily focused on drug\u2013drug interaction graphs combined\nwith simple node-level drug features.",
+      "5.3\nAdvancements in Model Structure\nBeyond problem formulation, significant research has focused on improving model architectures to more ef-\nfectively aggregate information across different data modalities and drug representations.",
+      "However, designing effective hypernetworks demands\nsignificant domain expertise and may constrain the method\u2019s generalizability across tasks.",
+      "Three common\ntypes of inputs are used individually or jointly: 2D molecule graphs, 3D molecule graphs, multi-molecule\ninteraction graphs such as protein-ligand complexes. Additional auxiliary information can also be incorpo-\nrated by some approaches."
+    ],
+    "response": "Earlier approaches were mostly based on traditional machine learning algorithms\nand/or matrix decomposition framework [38]. Some methods [40, 41, 42] can even take into considera-\ntions of patients\u2019 medical history and recommend drugs that are safe to use for specific patients.",
+    "confidence_scores": [
+      0.295,
+      0.277,
+      0.269,
+      0.269,
+      0.266
+    ],
+    "top_score": 0.295,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Summarize methodologies used in the papers",
+    "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+    "timestamp": "2025-07-28 19:41:27"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+      "In other cases (e.g., data from cell-based\nassays), the relationships can be quantified based on one or multiple measures of individual drugs and/or\ndrug pairs (e.g., half maximal inhibitory concentration or IC50), which can be viewed as regression tasks.",
+      "Historically, many DDIs were discovered via clinical case reports\nor mined from electronic health records (EHRs) [95, 96].",
+      "However, obtaining class labels or quantitative measurements often requires costly labo-\nratory experiments or human annotations. As a result, many datasets contain large numbers of unlabeled or\nimbalanced samples.",
+      "In this section, we categorize and discuss these approaches based on their specific prediction tasks\nand input data types, highlighting their novel contributions and offering insights into how they advance the\nfield."
+    ],
+    "response": "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+    "confidence_scores": [
+      0.433,
+      0.374,
+      0.369,
+      0.36,
+      0.338
+    ],
+    "top_score": 0.433,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "List the key datasets used in these studies",
+    "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+    "timestamp": "2025-07-28 19:41:27"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+      "More\nrecently, more and more approaches based on deep learning models have drawn increasing attention, and\nhave achieved better performance [38].",
+      "SQUID [15] was the\nfirst model designed to address this challenge.",
+      "For example, PhysChem [22] showed that incorporating physical and chemical\nproperties improved molecular representations, though its cooperation mechanism was less interpretable\nthan traditional ensemble strategies.",
+      "In this section, we categorize and discuss these approaches based on their specific prediction tasks\nand input data types, highlighting their novel contributions and offering insights into how they advance the\nfield."
+    ],
+    "response": "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+    "confidence_scores": [
+      0.637,
+      0.249,
+      0.222,
+      0.209,
+      0.199
+    ],
+    "top_score": 0.637,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "What performance benchmarks were reported?",
+    "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+    "timestamp": "2025-07-28 19:41:27"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "This multimodal approach allowed the model to simulta-\nneously capture both chemical and interaction-level knowledge. The evolution of problem formulation also extends to the design of prediction tasks.",
+      "The model included BindingNet, which adhered to group\nsymmetry and captured multi-level interactions, and a neural ordinary differential equation (ODE) solver\nthat modeled the physical trajectories of atoms based on Newtonian mechanics.",
+      "In\nother words, computational models are typically trained on \u201chit molecules\u201d\u2013compounds that already ex-\nhibit desirable properties for drug development.",
+      "For example, PhysChem [22] showed that incorporating physical and chemical\nproperties improved molecular representations, though its cooperation mechanism was less interpretable\nthan traditional ensemble strategies.",
+      "The regression tasks focus on the prediction of the quantitative value of\na particular property of a molecule. Similarly, relationships among molecules [27, 28] can be represented by\na binary value or a numerical value. Examples of the former include whether a protein and a target interact."
+    ],
+    "response": "This multimodal approach allowed the model to simulta-\nneously capture both chemical and interaction-level knowledge. The evolution of problem formulation also extends to the design of prediction tasks.",
+    "confidence_scores": [
+      0.427,
+      0.378,
+      0.372,
+      0.364,
+      0.359
+    ],
+    "top_score": 0.427,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "What are the key concepts in reaction kinetics?",
+    "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+    "timestamp": "2025-07-28 19:41:27"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "The model included BindingNet, which adhered to group\nsymmetry and captured multi-level interactions, and a neural ordinary differential equation (ODE) solver\nthat modeled the physical trajectories of atoms based on Newtonian mechanics.",
+      "This multimodal approach allowed the model to simulta-\nneously capture both chemical and interaction-level knowledge. The evolution of problem formulation also extends to the design of prediction tasks.",
+      "The model then iteratively sampled one action at\na time, e.g., adding a bond or an atom, until a \u201cterminate generation\u201d action was reached. Doing so allowed\nthe approach to construct a molecule step by step.",
+      "These models typically infer new interactions based on the guilt-by-association principle and are\nfundamentally different from the methods discussed in this work, which rely primarily on drugs\u2019 structure\ninformation represented as molecular graphs.",
+      "Computation-\nally, given the 2D or 3D structures of two molecules, the interaction can be studied at three levels: (1) binary\ninteraction (i.e., whether an interaction occurs), (2) binding affinity (a numerical value, typically reflecting\nbinding free energy), and (3) docking or protein-ligand binding dynamics."
+    ],
+    "response": "The model included BindingNet, which adhered to group\nsymmetry and captured multi-level interactions, and a neural ordinary differential equation (ODE) solver\nthat modeled the physical trajectories of atoms based on Newtonian mechanics.",
+    "confidence_scores": [
+      0.29,
+      0.239,
+      0.235,
+      0.218,
+      0.202
+    ],
+    "top_score": 0.29,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Explain the rate laws and order of reaction",
+    "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+    "timestamp": "2025-07-28 19:41:27"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "This multimodal approach allowed the model to simulta-\nneously capture both chemical and interaction-level knowledge. The evolution of problem formulation also extends to the design of prediction tasks.",
+      "These models typically infer new interactions based on the guilt-by-association principle and are\nfundamentally different from the methods discussed in this work, which rely primarily on drugs\u2019 structure\ninformation represented as molecular graphs.",
+      "The regression tasks focus on the prediction of the quantitative value of\na particular property of a molecule. Similarly, relationships among molecules [27, 28] can be represented by\na binary value or a numerical value. Examples of the former include whether a protein and a target interact.",
+      "For example, PhysChem [22] showed that incorporating physical and chemical\nproperties improved molecular representations, though its cooperation mechanism was less interpretable\nthan traditional ensemble strategies.",
+      "In other cases (e.g., data from cell-based\nassays), the relationships can be quantified based on one or multiple measures of individual drugs and/or\ndrug pairs (e.g., half maximal inhibitory concentration or IC50), which can be viewed as regression tasks."
+    ],
+    "response": "This multimodal approach allowed the model to simulta-\nneously capture both chemical and interaction-level knowledge. The evolution of problem formulation also extends to the design of prediction tasks.",
+    "confidence_scores": [
+      0.365,
+      0.29,
+      0.281,
+      0.277,
+      0.276
+    ],
+    "top_score": 0.365,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Summarize factors affecting reaction rates",
+    "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+    "timestamp": "2025-07-28 19:41:27"
+  }
+]

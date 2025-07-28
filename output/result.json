@@ -1,0 +1,348 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Building explainable graph neural network.json",
+      "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.json",
+      "Form 10K for the fiscal year ended September 30(2023).json",
+      "Recent Developments in GNNs for Drug Discovery.json",
+      "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.json"
+    ],
+    "persona": "Investment Analyst",
+    "job_to_be_done": "Analyze revenue trends, R&D investments, and market positioning strategies.",
+    "processing_timestamp": "2025-07-29T01:15:21.908371"
+  },
+  "extracted_sections": [
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "section_title": "Relevant to: What are the key concepts in reaction ki...",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "section_title": "Relevant to: Explain the rate laws and order of react...",
+      "importance_rank": 2,
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "section_title": "Relevant to: Explain the rate laws and order of react...",
+      "importance_rank": 3,
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "section_title": "Relevant to: What are the key concepts in reaction ki...",
+      "importance_rank": 4,
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "section_title": "Relevant to: Summarize factors affecting reaction rat...",
+      "importance_rank": 5,
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "Relevant to: What performance benchmarks were reporte...",
+      "importance_rank": 6,
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "section_title": "Relevant to: Summarize factors affecting reaction rat...",
+      "importance_rank": 7,
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "section_title": "Relevant to: List the key datasets used in these stud...",
+      "importance_rank": 8,
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "Relevant to: List the key datasets used in these stud...",
+      "importance_rank": 9,
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "Relevant to: What are the key concepts in reaction ki...",
+      "importance_rank": 10,
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "section_title": "Relevant to: What performance benchmarks were reporte...",
+      "importance_rank": 11,
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "section_title": "Relevant to: Summarize methodologies used in the pape...",
+      "importance_rank": 12,
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "Relevant to: Summarize factors affecting reaction rat...",
+      "importance_rank": 13,
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "section_title": "Relevant to: What are the key concepts in reaction ki...",
+      "importance_rank": 14,
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "section_title": "Relevant to: List the key datasets used in these stud...",
+      "importance_rank": 15,
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "section_title": "Relevant to: Summarize factors affecting reaction rat...",
+      "importance_rank": 16,
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "Relevant to: What are the market positioning strategi...",
+      "importance_rank": 17,
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "section_title": "Relevant to: Summarize methodologies used in the pape...",
+      "importance_rank": 18,
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "Relevant to: Summarize methodologies used in the pape...",
+      "importance_rank": 19,
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "section_title": "Relevant to: Explain the rate laws and order of react...",
+      "importance_rank": 20,
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "Relevant to: Explain the rate laws and order of react...",
+      "importance_rank": 21,
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "section_title": "Relevant to: Analyze revenue trends across all compan...",
+      "importance_rank": 22,
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "section_title": "Relevant to: Analyze revenue trends across all compan...",
+      "importance_rank": 23,
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "section_title": "Relevant to: What performance benchmarks were reporte...",
+      "importance_rank": 24,
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "Relevant to: Analyze revenue trends across all compan...",
+      "importance_rank": 25,
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "section_title": "Relevant to: List the key datasets used in these stud...",
+      "importance_rank": 26,
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "section_title": "Relevant to: Compare R&D investments for the past yea...",
+      "importance_rank": 27,
+      "page_number": 1
+    },
+    {
+      "document": "Form 10K for the fiscal year ended September 30(2023).pdf",
+      "section_title": "Relevant to: Analyze revenue trends across all compan...",
+      "importance_rank": 28,
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "Relevant to: Compare R&D investments for the past yea...",
+      "importance_rank": 29,
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "section_title": "Relevant to: What performance benchmarks were reporte...",
+      "importance_rank": 30,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "refined_text": "A study into the kinetics of a chemical reaction is usually carried out with one or both of two main \ngoals in mind: \n \n \n1. Analysis of the sequence of elementary steps giving rise to the overall reaction. i.e. the reaction mechanism. 2.",
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "refined_text": "Rate laws \n \nThe rate law is an expression relating the rate of a reaction to the concentrations of the chemical \nspecies present, which may include reactants, products, and catalysts. Many reactions follow a \nsimple rate law, which takes the form \n \n \n \n \n \n \n \nν = k [A]a[B]b[C]c... (3.1) \n \ni.e.",
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "refined_text": "Rate law is the expression in which reaction rate is given in terms of molar \nconcentration of reactants with each term raised to some power, which may or may \nnot be same as the stoichiometric coefficient of the reacting species in a balanced \nchemical equation.",
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "refined_text": "Class XII Chemistry                                www.vedantu.com                                              1 \nRevision Notes \nClass – 12 Chemistry \nChapter 4 – Chemical Kinetics \n \nINTRODUCTION  \nChemical Kinetics  \n(Kinesis: Movement)  \nThe branch of chemistry which deals with the study of the rates of chemical \nreactions, the factors affecting the rates of the reactions and the mechanism by \nwhich the reactions proceed is called Chemical Kinetics.",
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "refined_text": "Rate of \nreaction depends on the number of effective collisions which in turn depends on:  \n(i) Energy factor: colliding molecules must have energy more than threshold \nenergy. (ii) Steric or probability factor (P): colliding molecules must have proper \norientations at the time of collision.",
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "refined_text": "In the previous sections we have looked at experimental methods for \nmeasuring reaction rates to provide kinetic data that may be compared with the predictions of \ntheory.",
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "refined_text": "In (c) we illustrate how to generate the results for predictions on the identified datasets, which correspond\nto the results on the right panel of Table 2.",
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "This multimodal approach allowed the model to simulta-\nneously capture both chemical and interaction-level knowledge. The evolution of problem formulation also extends to the design of prediction tasks.",
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "refined_text": "First, for each competing method, we switch off their function\nto generate explainable results (identify the key structures) and\ntest their performance on the original data, which is shown in\nFigure. 2(b).",
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "refined_text": "First, for each competing method, we switch off their function\nto generate explainable results (identify the key structures) and\ntest their performance on the original data, which is shown in\nFigure. 2(b).",
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "This multimodal approach allowed the model to simulta-\nneously capture both chemical and interaction-level knowledge. The evolution of problem formulation also extends to the design of prediction tasks.",
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "refined_text": "At last, AttentiveFP [33] uses graph\nattention to prioritize the importance of the chemical atoms in a\nmolecule. However, there are limitations in the explainable GNN models\nmentioned above.",
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "refined_text": "• \nAbsorption or emission spectroscopy are common (more on these later) \n• \nFor reactions involving chiral compounds, polarimetry (measurement of optical activity) may \nbe useful. • \nOther techniques include mass spectrometry, gas chromatography, NMR/ESR, and many \nmore.",
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "refined_text": "Although using atoms-based\ngraphs is intuitive and effective for the learning tasks, it might\nbe problematic when we try to interpret their explanatory results.",
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "In this section, we categorize and discuss these approaches based on their specific prediction tasks\nand input data types, highlighting their novel contributions and offering insights into how they advance the\nfield.",
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "refined_text": "Most of the techniques we will look at are batch techniques, in which reaction is initiated at a single \nchosen time and concentrations are then followed as a function of time after initiation.",
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "Earlier approaches were mostly based on traditional machine learning algorithms\nand/or matrix decomposition framework [38]. Some methods [40, 41, 42] can even take into considera-\ntions of patients’ medical history and recommend drugs that are safe to use for specific patients.",
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "refined_text": "To\nhelp our audience have a better understanding of the procedure,\nwe draw the workflow of this experiment in Figure. 4.",
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "The model included BindingNet, which adhered to group\nsymmetry and captured multi-level interactions, and a neural ordinary differential equation (ODE) solver\nthat modeled the physical trajectories of atoms based on Newtonian mechanics.",
+      "page_number": 1
+    },
+    {
+      "document": "Building explainable graph neural network.pdf",
+      "refined_text": "Table.1 exhibits such statistics.",
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "refined_text": "For example, we have the following data:  \n1\n2\n3\n0\n1\n2\n3\nt\nTime: 0     t    t     t  .......",
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "refined_text": "Fast reactions require a fast measurement technique, and as a consequence are usually \nmonitored spectroscopically. A few commonly used techniques are outlined below.",
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "We also\ncollect a list of commonly used benchmark datasets for a variety of applications. We conclude\nthe paper with brief discussions and summarize common trends in this important research area.",
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "refined_text": "Class XII Chemistry                                www.vedantu.com                                              15 \nii.",
+      "page_number": 1
+    },
+    {
+      "document": "Claire Vallance (Oxford) Lecture Notes _ Reaction Kinetics.pdf",
+      "refined_text": "During the period of \ntime when [R] is essentially constant, because d[R]/dt is so much less than the rates of change of \nthe reactant and product concentrations, it is a good approximation to set d[R]/dt = 0. This is \nknown as the steady state approximation.",
+      "page_number": 1
+    },
+    {
+      "document": "Form 10K for the fiscal year ended September 30(2023).pdf",
+      "refined_text": "Sincerely,\nDivision of Corporation Finance\nOffice of Technology\ncc:       Sam Whittington",
+      "page_number": 1
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "In this section, we categorize and discuss these approaches based on their specific prediction tasks\nand input data types, highlighting their novel contributions and offering insights into how they advance the\nfield.",
+      "page_number": 1
+    },
+    {
+      "document": "cbse_class_12_chemistry_notes_chapter_4_chemical_kinetics.pdf",
+      "refined_text": "Classification of reactions  \nOn the basis of rates:  \nVery fast reactions e.g. precipitation of AgCl  \nVery slow reactions e.g. rusting of iron  \nReactions taking place at moderate speeds e.g. hydrolysis of starch  \n  \n 1.",
+      "page_number": 1
+    }
+  ]
+}

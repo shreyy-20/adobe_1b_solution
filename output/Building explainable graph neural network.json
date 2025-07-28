@@ -1,0 +1,209 @@
+[
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "Table.1 exhibits such statistics.",
+      "Despite using different computational strategies, the\nfollowing methods can be categorized into one kind: the weight\nranking-based interpretation method. They [13, 33, 35] have been\ntested on BBBP, MUTAG, Tox21, synthetic datasets, etc.",
+      "First, for each competing method, we switch off their function\nto generate explainable results (identify the key structures) and\ntest their performance on the original data, which is shown in\nFigure. 2(b).",
+      "We apply all the competing methods to identify key struc-\ntures for each drug in the original data.",
+      "Given a drug (for example\n\nCNB MAC 2023, September 03, 2023, Houston, TX\nYang Wang, Zanyu Shi, Timothy Richardson, Kun Huang, Pathum Weerawarna, and Yijie Wang\nLyn\nLck\nSrc\nPDB ID\nModel\nAUPR\nF1\nPDB ID\nModel\nAUPR\nF1\nPDB ID\nModel\nAUPR\nF1\n2ZV8\nSLGNN\n0.621\n0.268\n2OF2\nSLGNN\n0.626\n0.667\n1KSW\nSLGNN\n0.612\n0.211\nGNNExplainer\n0.587\n0.266\nGNNExplainer\n0.474\n0.333\nGNNExplainer\n0.55\n0.5\nPGExplainer\n0.607\n0.154\nPGExplainer\n0\n0\nPGExplainer\n0.766\n0.588\nAttentiveFP\n0.565\n0.143\nAttentiveFP\n0.530\n0.4\nAttentiveFP\n0.633\n0.153\n2ZV9\nSLGNN\n0.482\n0.545\n2OF4\nSLGNN\n0.237\n0.222\n2SRC\nSLGNN\n0.572\n0.222\nGNNExplainer\n0.466\n0.250\nGNNExplainer\n0\n0\nGNNExplainer\n0.649\n0.352\nPGExplainer\n0.599\n0.333\nPGExplainer\n0\n0\nPGExplainer\n0.647\n0.444\nAttentiveFP\n0\n0\nAttentiveFP\n0.265\n0.285\nAttentiveFP\n0\n0\n2ZVA\nSLGNN\n0.556\n0.572\n3B2W\nSLGNN\n0.544\n0.286\n4K11\nSLGNN\n0.624\n0.727\nGNNExplainer\n0.536\n0.222\nGNNExplainer\n0.530\n0.273\nGNNExplainer\n0.45\n0.224\nPGExplainer\n0.474\n0.200\nPGExplainer\n0.534\n0.2\nPGExplainer\n0.60\n0.333\nAttentiveFP\n0\n0\nAttentiveFP\n0\n0\nAttentiveFP\n0.433\n0.363\n3A4O\nSLGNN\n0.630\n0.533\nGNNExplainer\n0.726\n0.200\nPGExplainer\n0.726\n0.200\nAttentiveFP\n0.671\n0.182\nTable 3: Results for case studies."
+    ],
+    "response": "Table.1 exhibits such statistics.",
+    "confidence_scores": [
+      0.284,
+      0.239,
+      0.189,
+      0.179,
+      0.152
+    ],
+    "top_score": 0.284,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Analyze revenue trends across all companies",
+    "document": "Building explainable graph neural network.pdf",
+    "timestamp": "2025-07-28 19:41:12"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "However, for the competing\nmethods, they might perform well on one dataset but their overall\nperformance is not good. As shown in Table. 4, we compute the\naverage and standard deviation of the AUPR and F1 scores obtained\non the 10 drug-protein binding tests (listed in Table. 3) for each\nmethod.",
+      "In (b) we introduce how to generate the results for predictions on the original dataset, which correspond to the results on the\nleft panel of Table 2.",
+      "In sum, we remark that our SLGNN is the most robust method\namong the competing methods. We have 10 drug-protein binding\ntests in Table. 3. SLGNN achieves the best accuracy in 7 out of\n10. Even for the ones SLGNN does have the best performance, its\nperformance is close to the best ones.",
+      "Therefore, the results imply that the key\nstructures identified by SLGNN have more predictive power than\nthe key structures identified by other competing methods.",
+      "3 illustrates the comparison between the competing meth-\nods. As shown in the left part of Table. 3, our SLGNN outperforms\nother methods in terms of AUPR and F1 for finding the chemical\nsubstructures that contain binding sites for protein Lyn except for\nthe AUPR for 3A4O."
+    ],
+    "response": "However, for the competing\nmethods, they might perform well on one dataset but their overall\nperformance is not good. As shown in Table. 4, we compute the\naverage and standard deviation of the AUPR and F1 scores obtained\non the 10 drug-protein binding tests (listed in Table. 3) for each\nmethod.",
+    "confidence_scores": [
+      0.199,
+      0.183,
+      0.18,
+      0.176,
+      0.175
+    ],
+    "top_score": 0.199,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Compare R&D investments for the past year",
+    "document": "Building explainable graph neural network.pdf",
+    "timestamp": "2025-07-28 19:41:12"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "Despite using different computational strategies, the\nfollowing methods can be categorized into one kind: the weight\nranking-based interpretation method. They [13, 33, 35] have been\ntested on BBBP, MUTAG, Tox21, synthetic datasets, etc.",
+      "\ud835\udc4e\ud835\udc58and \ud835\udc4f\ud835\udc58are positive real numbers and \u2207\u0398F (\u0398\ud835\udc58, \ud835\udf37\ud835\udc58) is the deriv-\native of F (\u0398, \ud835\udf37\ud835\udc58) with respect to \u0398 at point \u0398\ud835\udc58for fixed \ud835\udf37\ud835\udc58and\n\u2207\ud835\udf37F (\u0398\ud835\udc58+1, \ud835\udf37\ud835\udc58) is the derivative of F (\u0398\ud835\udc58+1, \ud835\udf37) with respect to \ud835\udf37\nat point \ud835\udf37\ud835\udc58for fixed \u0398\ud835\udc58+1.",
+      "SLGNN(Base), GNNExplainer(Base), PGExplainer(Base), and AttentiveFP(Base) are the basic models\nof each method that switches off the explanatory function (described in the 2nd paragraph in section 3.6). Lyn(AttentiveFP Identified), respectively.",
+      "First, for each competing method, we switch off their function\nto generate explainable results (identify the key structures) and\ntest their performance on the original data, which is shown in\nFigure. 2(b).",
+      "2.2.4\nLearning objective."
+    ],
+    "response": "Despite using different computational strategies, the\nfollowing methods can be categorized into one kind: the weight\nranking-based interpretation method. They [13, 33, 35] have been\ntested on BBBP, MUTAG, Tox21, synthetic datasets, etc.",
+    "confidence_scores": [
+      0.188,
+      0.173,
+      0.159,
+      0.145,
+      0.143
+    ],
+    "top_score": 0.188,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "What are the market positioning strategies mentioned?",
+    "document": "Building explainable graph neural network.pdf",
+    "timestamp": "2025-07-28 19:41:12"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "First, for each competing method, we switch off their function\nto generate explainable results (identify the key structures) and\ntest their performance on the original data, which is shown in\nFigure. 2(b).",
+      "Then, for each competing method, we switch back on their func-\ntion to generate explainable results, therefore, they can identify the\nkey structures in a drug. And this procedure is illustrated in Fig-\nure. 2(a).",
+      "SLGNN(Base), GNNExplainer(Base), PGExplainer(Base), and AttentiveFP(Base) are the basic models\nof each method that switches off the explanatory function (described in the 2nd paragraph in section 3.6). Lyn(AttentiveFP Identified), respectively.",
+      "Despite using different computational strategies, the\nfollowing methods can be categorized into one kind: the weight\nranking-based interpretation method. They [13, 33, 35] have been\ntested on BBBP, MUTAG, Tox21, synthetic datasets, etc.",
+      "2\nMETHODS\nThe overview of our SLGNN method is illustrated in Fig. 1."
+    ],
+    "response": "First, for each competing method, we switch off their function\nto generate explainable results (identify the key structures) and\ntest their performance on the original data, which is shown in\nFigure. 2(b).",
+    "confidence_scores": [
+      0.383,
+      0.376,
+      0.35,
+      0.345,
+      0.302
+    ],
+    "top_score": 0.383,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Summarize methodologies used in the papers",
+    "document": "Building explainable graph neural network.pdf",
+    "timestamp": "2025-07-28 19:41:12"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "In (c) we illustrate how to generate the results for predictions on the identified datasets, which correspond\nto the results on the right panel of Table 2.",
+      "Table.1 exhibits such statistics.",
+      "Lyn(Original), Lck(Original), and Src(Original)\nare the data described in section 3.1.",
+      "However, for the competing\nmethods, they might perform well on one dataset but their overall\nperformance is not good. As shown in Table. 4, we compute the\naverage and standard deviation of the AUPR and F1 scores obtained\non the 10 drug-protein binding tests (listed in Table. 3) for each\nmethod.",
+      "We apply all the competing methods to identify key struc-\ntures for each drug in the original data."
+    ],
+    "response": "In (c) we illustrate how to generate the results for predictions on the identified datasets, which correspond\nto the results on the right panel of Table 2.",
+    "confidence_scores": [
+      0.464,
+      0.455,
+      0.433,
+      0.425,
+      0.417
+    ],
+    "top_score": 0.464,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "List the key datasets used in these studies",
+    "document": "Building explainable graph neural network.pdf",
+    "timestamp": "2025-07-28 19:41:12"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "First, for each competing method, we switch off their function\nto generate explainable results (identify the key structures) and\ntest their performance on the original data, which is shown in\nFigure. 2(b).",
+      "For 2OF2, SLGNN outperforms\nother methods. For 2OF4, SLGNN and AttentiveFP have competi-\ntive performance. AttentiveFP obtains slightly better AUPR and F1\nscores. For 3B2W, GNNExplainer attains the best AUPR score but\nSLGNN achieves the best F1 score. As shown in the right part of\nTable.",
+      "However, for the competing\nmethods, they might perform well on one dataset but their overall\nperformance is not good. As shown in Table. 4, we compute the\naverage and standard deviation of the AUPR and F1 scores obtained\non the 10 drug-protein binding tests (listed in Table. 3) for each\nmethod.",
+      "We apply SLGNN(Base), GNNEx-\nplainer(Base), PGExplainer(Base), and AttentiveFP(Base) to the orig-\ninal Lyn, Lck, and Src data and show their performance in Table. 2\nin the left part.",
+      "Model\nAUPR\nF1\nSLGNN\n0.550(0.114)\n0.425(0.192)\nGNNExplainer\n0.497(0.184)\n0.262(0.121)\nPGExplainer\n0.495(0.260)\n0.245(0.175)\nAttentiveFP\n0.310(0.274)\n0.153(0.147)\nTable 4: Comparison of the average and standard deviation\nof AUPR and F1 scores of the 10 test cases shown in Table 3."
+    ],
+    "response": "First, for each competing method, we switch off their function\nto generate explainable results (identify the key structures) and\ntest their performance on the original data, which is shown in\nFigure. 2(b).",
+    "confidence_scores": [
+      0.417,
+      0.367,
+      0.35,
+      0.33,
+      0.304
+    ],
+    "top_score": 0.417,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "What performance benchmarks were reported?",
+    "document": "Building explainable graph neural network.pdf",
+    "timestamp": "2025-07-28 19:41:12"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "At last, AttentiveFP [33] uses graph\nattention to prioritize the importance of the chemical atoms in a\nmolecule. However, there are limitations in the explainable GNN models\nmentioned above.",
+      "Therefore, for any drug used in the learning task, the\nstructures identified by all the competing methods have the same\nnumber of atoms.",
+      "Although using atoms-based\ngraphs is intuitive and effective for the learning tasks, it might\nbe problematic when we try to interpret their explanatory results.",
+      "In contrast, our SLGNN overcomes the problem by identifying key\nstructures that consist of chemically valid chemical substructures.",
+      "KEYWORDS\nGraph Neural Networks, Interpretable models, Sparse learning,\nDrug-protein binding prediction. ACM Reference Format:\nYang Wang, Zanyu Shi, Timothy Richardson, Kun Huang, Pathum Weer-\nawarna, and Yijie Wang. 2023."
+    ],
+    "response": "At last, AttentiveFP [33] uses graph\nattention to prioritize the importance of the chemical atoms in a\nmolecule. However, there are limitations in the explainable GNN models\nmentioned above.",
+    "confidence_scores": [
+      0.337,
+      0.308,
+      0.297,
+      0.296,
+      0.278
+    ],
+    "top_score": 0.337,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "What are the key concepts in reaction kinetics?",
+    "document": "Building explainable graph neural network.pdf",
+    "timestamp": "2025-07-28 19:41:12"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "To\nhelp our audience have a better understanding of the procedure,\nwe draw the workflow of this experiment in Figure. 4.",
+      "(9)\n\ud835\udc5a\ud835\udc56\ud835\udc57is the frequency of the connections between chemical substruc-\nture \ud835\udc56and chemical substructure \ud835\udc57appeared in the positive samples. We note that the larger \ud835\udc5a\ud835\udc56\ud835\udc57is, the more penalty is applied to \ud835\udefd\ud835\udc56\ud835\udc57to\nmake it away from zero.",
+      "The details of the second step will\nbe described in section 2.3. Atom-Based Graph\nChemical-substructure-based Graph\nC\nH\nN\nCl\nFigure 2: Difference between atom-based graph and chemical-\nsubstructure-based graphs.",
+      "Copyrights for components of this work owned by others than ACM\nmust be honored. Abstracting with credit is permitted. To copy otherwise, or republish,\nto post on servers or to redistribute to lists, requires prior specific permission and/or a\nfee. Request permissions from permissions@acm.org.",
+      "At last, AttentiveFP [33] uses graph\nattention to prioritize the importance of the chemical atoms in a\nmolecule. However, there are limitations in the explainable GNN models\nmentioned above."
+    ],
+    "response": "To\nhelp our audience have a better understanding of the procedure,\nwe draw the workflow of this experiment in Figure. 4.",
+    "confidence_scores": [
+      0.294,
+      0.272,
+      0.207,
+      0.183,
+      0.179
+    ],
+    "top_score": 0.294,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Explain the rate laws and order of reaction",
+    "document": "Building explainable graph neural network.pdf",
+    "timestamp": "2025-07-28 19:41:12"
+  },
+  {
+    "persona": "user-centric",
+    "relevant_sections": [
+      "Although using atoms-based\ngraphs is intuitive and effective for the learning tasks, it might\nbe problematic when we try to interpret their explanatory results.",
+      "At last, AttentiveFP [33] uses graph\nattention to prioritize the importance of the chemical atoms in a\nmolecule. However, there are limitations in the explainable GNN models\nmentioned above.",
+      "First, for each competing method, we switch off their function\nto generate explainable results (identify the key structures) and\ntest their performance on the original data, which is shown in\nFigure. 2(b).",
+      "To\nhelp our audience have a better understanding of the procedure,\nwe draw the workflow of this experiment in Figure. 4.",
+      "The details of the second step will\nbe described in section 2.3. Atom-Based Graph\nChemical-substructure-based Graph\nC\nH\nN\nCl\nFigure 2: Difference between atom-based graph and chemical-\nsubstructure-based graphs."
+    ],
+    "response": "Although using atoms-based\ngraphs is intuitive and effective for the learning tasks, it might\nbe problematic when we try to interpret their explanatory results.",
+    "confidence_scores": [
+      0.307,
+      0.285,
+      0.281,
+      0.28,
+      0.268
+    ],
+    "top_score": 0.307,
+    "reasoning": "Used transformer embeddings to match query with document sections for persona 'user-centric'",
+    "query": "Summarize factors affecting reaction rates",
+    "document": "Building explainable graph neural network.pdf",
+    "timestamp": "2025-07-28 19:41:12"
+  }
+]
