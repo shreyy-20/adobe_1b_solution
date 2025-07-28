@@ -1,0 +1,44 @@
+{
+  "business_analysis_sample_queries": [
+    {
+      "query": "Analyze revenue trends across all companies",
+      "persona_hint": "Investment Analyst interested in financial growth"
+    },
+    {
+      "query": "Compare R&D investments for the past year",
+      "persona_hint": "Investment Analyst researching innovation spending"
+    },
+    {
+      "query": "What are the market positioning strategies mentioned?",
+      "persona_hint": "Investment Analyst evaluating business strategies"
+    }
+  ],
+  "academic_research_sample_queries": [
+    {
+      "query": "Summarize methodologies used in the papers",
+      "persona_hint": "PhD Researcher in Computational Biology"
+    },
+    {
+      "query": "List the key datasets used in these studies",
+      "persona_hint": "PhD Researcher analyzing data quality"
+    },
+    {
+      "query": "What performance benchmarks were reported?",
+      "persona_hint": "PhD Researcher comparing model performance"
+    }
+  ],
+  "educational_content_sample_queries": [
+    {
+      "query": "What are the key concepts in reaction kinetics?",
+      "persona_hint": "Undergraduate Chemistry Student"
+    },
+    {
+      "query": "Explain the rate laws and order of reaction",
+      "persona_hint": "Chemistry student preparing for exams"
+    },
+    {
+      "query": "Summarize factors affecting reaction rates",
+      "persona_hint": "Student reviewing kinetic topics"
+    }
+  ]
+}

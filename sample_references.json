@@ -1,0 +1,10 @@
+[
+  {
+    "query": "What are the tax benefits?",
+    "reference": "Employees can avail deductions under Section 80C for investments made in PPF, ELSS, and insurance."
+  },
+  {
+    "query": "How many leaves can we take?",
+    "reference": "Employees are entitled to 20 days of paid leave annually, excluding public holidays."
+  }
+]
